@@ -1,0 +1,36 @@
+/* Custom styles for Tusky VolumeBot */
+
+.wallet-adapter-button {
+    background-color: #0ea5e9 !important;
+    border-radius: 0.5rem !important;
+    padding: 0.75rem 1.5rem !important;
+    font-weight: 600 !important;
+    transition: all 0.2s !important;
+}
+
+.wallet-adapter-button:hover {
+    background-color: #0284c7 !important;
+    transform: translateY(-1px) !important;
+}
+
+.wallet-adapter-button:active {
+    transform: translateY(0) !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
